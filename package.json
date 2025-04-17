@@ -17,7 +17,8 @@
     "lint:prettier": "prettier --check .",
     "lint:prettier:fix": "prettier --write '**/*.{scss,yaml,yml,md}'",
     "lint:styles": "stylelint './lib/**/*.scss'",
-    "lint:styles:fix": "stylelint **/*.scss --fix"
+    "lint:styles:fix": "stylelint **/*.scss --fix",
+    "pre-commit": "lint-staged"
   },
   "devDependencies": {
     "@diplodoc/lint": "^1.1.2",
@@ -36,5 +37,10 @@
       "stylelint --fix",
       "prettier --write"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
