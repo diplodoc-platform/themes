@@ -1,0 +1,54 @@
+@mixin gravity-colors-for-diplodoc-dark-hc {
+  --yfm-color-base: var(--g-color-base-background);
+  --yfm-color-text: var(--g-color-text-primary);
+  --yfm-color-link: var(--g-color-text-link);
+  --yfm-color-link-hover: var(--g-color-text-link-hover);
+  --yfm-color-table: var(--g-color-text-primary);
+  --yfm-color-table-row-background: var(--g-color-base-generic);
+  --yfm-color-border: var(--g-color-line-generic);
+  --yfm-color-accent: var(--g-color-line-brand);
+
+  // code
+  --yfm-color-inline-code: var(--g-color-text-misc);
+  --yfm-color-inline-code-background: var(--g-color-base-misc-light);
+  --yfm-color-code-background: var(--g-color-base-misc-light);
+
+  // hljs todo determinate variables
+  // --yfm-color-hljs-background-private: rgba(107, 132, 153, 0.12);
+  // --yfm-color-hljs-subst-private: #444;
+  // --yfm-color-hljs-comment-private: #888888;
+  // --yfm-color-hljs-deletion-private: #880000;
+  // --yfm-color-hljs-section-private: #880000;
+  // --yfm-color-hljs-pseudo-private: #bc6060;
+  // --yfm-color-hljs-literal-private: #78a960;
+  // --yfm-color-hljs-addition-private: #397300;
+  // --yfm-color-hljs-meta-private: #1f7199;
+  // --yfm-color-hljs-meta-string-private: #4d99bf;
+
+  // note
+  --yfm-color-note-tip: var(--g-color-text-positive);
+  --yfm-color-note-tip-background: var(--g-color-base-positive-light);
+  --yfm-color-note-warning: var(--g-color-text-warning);
+  --yfm-color-note-warning-background: var(--g-color-base-warning-light);
+  --yfm-color-note-important: var(--g-color-text-danger);
+  --yfm-color-note-important-background: var(--g-color-base-danger-light);
+  --yfm-color-note-info: var(--g-color-text-info);
+  --yfm-color-note-info-background: var(--g-color-base-info-light);
+
+  // term
+  --yfm-color-term-title: var(--g-color-text-brand);
+  --yfm-color-term-title-hover: var(--g-color-text-brand-heavy);
+  --yfm-color-term-dfn-background: var(--g-color-base-float);
+  --yfm-color-term-dfn-shadow: var(--g-color-sfx-shadow);
+  --yfm-color-term-dfn-pseudo-shadow: var(--g-color-line-generic);
+
+  // modal
+  --yfm-color-modal-content: var(--g-color-base-modal);
+  --yfm-color-modal-actions-hover: var(--g-color-base-simple-hover);
+  --yfm-color-modal-wide-content: var(--g-color-text-primary);
+  --yfm-color-modal-wide-content-overlay: var(--g-color-sfx-veil);
+}
+
+.yfm {
+  @include gravity-colors-for-diplodoc-dark-hc();
+}

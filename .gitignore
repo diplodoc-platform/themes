@@ -7,7 +7,6 @@ node_modules
 dist
 
 .history
-/lib
 /dist
 /build
 /cache
