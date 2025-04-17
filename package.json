@@ -1,0 +1,40 @@
+{
+  "name": "@diplodoc/themes",
+  "version": "0.0.1",
+  "description": "Gravity UI themes for diplodoc",
+  "license": "MIT",
+  "homepage": "https://github.com/diplodoc-platform/themes",
+  "bugs": {
+    "url": "https://github.com/diplodoc-platform/themes/issues"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp",
+    "lint:prettier": "prettier --check .",
+    "lint:prettier:fix": "prettier --write '**/*.{scss,yaml,yml,md}'",
+    "lint:styles": "stylelint './lib/**/*.scss'",
+    "lint:styles:fix": "stylelint **/*.scss --fix"
+  },
+  "devDependencies": {
+    "@diplodoc/lint": "^1.1.2",
+    "@diplodoc/tsconfig": "^1.0.2",
+    "gulp": "^5.0.0",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-filter": "^7.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "^3.2.4",
+    "rimraf": "^5.0.5"
+  },
+  "lint-staged": {
+    "*.{scss}": [
+      "stylelint --fix",
+      "prettier --write"
+    ]
+  }
+}
