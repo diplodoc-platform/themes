@@ -4,8 +4,7 @@
 .env
 .DS_Store
 node_modules
-gulpfile.js
-
+/lib
 /dist
 /build
 /cache
