@@ -1,3 +1,4 @@
+/* eslint-env node */
 const path = require('path');
 const {src, dest, series} = require('gulp');
 const sass = require('gulp-dart-sass');
