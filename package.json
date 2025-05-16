@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Gravity UI themes for diplodoc",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/diplodoc-platform/themes",
   "bugs": {
     "url": "https://github.com/diplodoc-platform/themes/issues"
