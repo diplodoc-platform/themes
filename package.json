@@ -23,7 +23,8 @@
     "lint:styles": "stylelint './lib/**/*.scss'",
     "lint:styles:fix": "stylelint **/*.scss --fix",
     "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@diplodoc/lint": "^1.1.2",
