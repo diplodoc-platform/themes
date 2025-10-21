@@ -3,8 +3,6 @@
     --yfm-color-text: var(--g-color-text-primary);
     --yfm-color-link: var(--g-color-text-link);
     --yfm-color-link-hover: var(--g-color-text-link-hover);
-    --yfm-color-table: var(--g-color-text-primary);
-    --yfm-color-table-row-background: var(--g-color-base-generic);
     --yfm-color-border: var(--g-color-line-generic);
     --yfm-color-accent: var(--g-color-line-brand);
 
@@ -47,6 +45,14 @@
     --yfm-color-modal-actions-hover: var(--g-color-base-simple-hover);
     --yfm-color-modal-wide-content: var(--g-color-text-primary);
     --yfm-color-modal-wide-content-overlay: var(--g-color-sfx-veil);
+
+    // table
+    --yfm-color-table: var(--g-color-text-primary);
+    --yfm-color-table-row-background: var(--g-color-base-generic);
+    --yfm-color-table-border: var(--g-color-line-generic);
+    --yfm-color-table-background: var(--g-color-base-background);
+    --yfm-color-table-head-background: var(--g-color-base-generic);
+    --yfm-color-table-stripe-row-background: var(--g-color-base-generic);
 }
 
 .yfm {
