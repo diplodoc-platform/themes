@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/diplodoc-platform/themes/compare/v1.1.1...v1.2.0) (2025-11-12)
+
+
+### Features
+
+* add table colors ([d5a2883](https://github.com/diplodoc-platform/themes/commit/d5a2883b3b18557d9fac955213f995f22f0c64ed))
+
 ## [1.1.1](https://github.com/diplodoc-platform/themes/compare/v1.1.0...v1.1.1) (2025-05-16)
 
 
